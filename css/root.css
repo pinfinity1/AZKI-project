@@ -1,0 +1,17 @@
+:root {
+    --azki-primary-light: #5DA0FB;
+    --azki-primary-main: #3E8DF7;
+    --azki-primary-dark: #1C79F6;
+    --azki-secondary-light: #F5CD70;
+    --azki-secondary-main: #F5BE41;
+    --azki-secondary-dark: #F5BE41;
+    --azki-neutral-white: #FFFFFF;
+    --azki-neutral-25: #F9F9F9;
+    --azki-neutral-50: #EAEAEA;
+    --azki-neutral-100: #BDBDBF;
+    --azki-neutral-200: #9D9D9F;
+    --azki-neutral-300: #707174;
+    --azki-neutral-400: #555559;
+    --azki-neutral-500: #2A2B2F;
+    --azki-neutral-balck: #000000;
+}
