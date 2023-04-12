@@ -299,7 +299,7 @@
             
             .damage_section_image {
                 width: 100%;
-                margin: 60px 0 -24px;
+                margin: 60px 44px -24px;
             }
             
             .crash_image {
@@ -452,7 +452,6 @@
                 font-family: 'Vazir-Regular';
                 font-size: 1.4rem;
                 color: var(--azki-neutral-400);
-                /* text-align: justify; */
                 margin-top: 8px;
             }
             
@@ -825,14 +824,26 @@
                 }
                 .damage_section {
                     flex-direction: row;
+                    padding: 0 auto;
                 }
                 .damage_section_top {
-                    padding: 58px 144px 58px 0;
+                    width: 50%;
+                    padding: 58px 0;
                 }
                 .damage_section_text {
                     text-align: right;
                 }
-                .damage_section_image {}
+                .damage_section_image {
+                    width: 50%;
+                    height: 100vh;
+                    margin: 0;
+                    position: relative;
+                }
+                .crash_image {
+                    position: absolute;
+                    bottom: -33px;
+                    left: 0;
+                }
                 .reminder_section {
                     max-width: 960px;
                     margin: 96px auto 0;
@@ -892,5 +903,8 @@
                     justify-content: center;
                     align-items: center;
                     column-gap: 68px;
+                }
+                .damage_section {
+                    padding: 0 144px;
                 }
             }
